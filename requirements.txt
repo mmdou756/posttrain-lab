@@ -1,0 +1,12 @@
+# 环境版本以 `notes/env.md` 里记录的实际版本为准，这里只列包名
+torch>=2.3
+transformers>=4.51
+datasets>=2.20
+accelerate>=0.33
+peft>=0.12
+trl>=0.12
+# vLLM 按机器和 CUDA 选版本，装不上不影响 SFT/评测
+# vllm>=0.6
+datasketch>=1.6
+numpy
+tqdm

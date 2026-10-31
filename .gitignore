@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 数据：几 MB，可重新生成，不入库
+data/gsm8k/
+data/gsm8k_raw/
+data/gsm8k_clean/
+*.jsonl
+# 但保留这一行样例，方便别人看清数据格式
+!data/gsm8k_sample.jsonl
+
+# 训练产物（在实例的 /root/rivermind-data 下，本来也不在这里）
+runs/
+checkpoint-*/
+results/*.jsonl
+*.log
+
+# 系统/编辑器
+.DS_Store
+.idea/
+.vscode/
