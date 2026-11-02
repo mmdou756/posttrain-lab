@@ -1,0 +1,14 @@
+{
+  "model": "/root/rivermind-data/models/Qwen3-1.7B",
+  "adapter": "/root/rivermind-data/runs/sft_rft/final",
+  "data": "data/gsm8k/test.jsonl",
+  "n": 100,
+  "n_samples": 1,
+  "temperature": 0.0,
+  "pass@1_mean": 0.78,
+  "pass@1_std": 0.0,
+  "avg_len_words": 142.6,
+  "trunc_rate": 0.04,
+  "format_rate": 0.57,
+  "seconds": 101.4
+}
